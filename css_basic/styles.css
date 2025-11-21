@@ -1,0 +1,24 @@
+/* 1. Make <body> and <main> flex containers */
+body {
+    display: flex;
+    flex-direction: column;   /* header, main, footer stacked vertically */
+    height: 100vh;            /* full page height */
+}
+
+/* <main> contains article + aside */
+main {
+    display: flex;
+    flex-direction: row;      /* article (left) + aside (right) */
+    flex: auto;               /* allow main to grow and fill space */
+}
+
+/* 2. Article takes 2/3 width, aside takes 1/3 width */
+article {
+    flex: 2;                  /* bigger area */
+    overflow-y: auto;         /* scroll inside article */
+}
+
+aside {
+    flex: 1;                  /* smaller area */
+    overflow-y: auto;         /* scroll inside aside */
+}
