@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #f5f4fa;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 64px;
+  background: transparent;
+}
+
+.hero-bg {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  min-height: 90vh;url(/images/Object.png)
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(20, 30, 53, 0.8); /* dark overlay, adjust opacity if needed */
+  z-index: 1;sss
+}
+
+.hero-bg > div {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-bg h1,
+.hero-bg span,
+.hero-bg button,
+.hero-bg h2,
+.hero-bg img,
+.hero-bg h3,
+.hero-bg p {
+  position: relative;
+  z-index: 2;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+main > section:first-child {
+  display: flex;
+  background: linear-gradient(100deg, #141e35 60%, #f5f4fa 40%);
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+main > section:first-child > div {
+  z-index: 2;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 32px;
+  line-height: 1;
+}
+
+span {
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-right: 20px;
+  background: #3d426b;
+  color: #ccc;
+  padding: 6px 18px;
+  border-radius: 24px;
+}
+
+button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 38px;
+  padding: 18px 60px;
+  font-size: 1em;
+  font-weight: bold;
+  background: #c271ff;
+  color: #fff;
+  border: none;
+  border-radius: 36px;
+  cursor: pointer;
+  box-shadow: 0 6px 32px rgba(32, 0, 44, 0.18);
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #a857dd;
+}
+
+/* Face hero image overlay (optional, requires image) */
+main > section:first-child {
+  position: relative;
+
+}
+main > section:first-child::before {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background: url('./images/object.png') no-repeat center right;
+  background-size: cover;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+/* Pros Section */
+main > section:first-child > div:nth-child(2) {
+  margin-top: 24px;
+}
+
+h2 {
+  font-size: 2.4em;
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+main > section:first-child > div:nth-child(2) > div {
+  display: flex;
+  gap: 40px;
+}
+
+main > section:first-child > div:nth-child(2) > div > div {
+  text-align: center;
+}
+
+main > section:first-child img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #fff; 
+}
+
+.text{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #a6a6a6;
+  margin-top: 7px;
+  font-size: 1em;
+}
+
+/* Quote Section */
+main > section:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background: #f5f4fa;
+  color: #333;
+  padding: 70px 110px;
+}
+
+
+
+blockquote {
+  font-size: 1.5em;
+  color: #606060;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #c271ff;
+  margin-top: 0;
+}
+
+P {
+  font-size: 1em;
+  color: #888;
+  margin-top: 2px;
+}
