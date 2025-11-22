@@ -210,7 +210,9 @@ main > section:nth-child(2) {
   padding: 70px 110px;
 }
 
-
+.test {
+  color:#b18cd9;
+}
 
 blockquote {
   font-size: 1.5em;
@@ -222,12 +224,142 @@ blockquote {
 h3 {
   font-size: 1.2em;
   font-weight: 700;
-  color: #c271ff;
+  color: rgb(221, 217, 224);
   margin-top: 0;
 }
 
 P {
   font-size: 1em;
-  color: #888;
+  color: #f1eaea;
   margin-top: 2px;
+}
+
+.tutorials h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.highlight {
+    color: #5562fd;
+    font-weight: 500;
+}
+.tutorial-list {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin: 30px 0 42px 0;
+}
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    padding: 20px 16px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0 4px;
+}
+.card p {
+    font-size: 14px;
+    color: #808080;
+    margin: 6px 0;
+    text-align: center;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 6px;
+}
+.author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.author h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+.stars {
+    display: flex;
+    gap: 2px;
+    color: #b18cd9;
+    margin-bottom: 4px;
+     margin-right: 90px;
+}
+.duration {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.membership {
+    background: #232742;
+    color: #fff;
+    padding: 42px 0 35px 0;
+    margin-top: 28px;
+    text-align: center;
+}
+.membership h2 {
+    margin-bottom: 26px;
+     display:flex;
+  justify-content: center;
+  align-items: center;
+  
+    
+}
+.benefits {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 16px;
+}
+.benefit {
+    width: 160px;
+    padding: 10px 0;
+}
+.benefit img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 14px;
+}
+.benefit h3 {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.benefit p {
+    font-size: 12px;
+    color: #b8b8d1;
+}
+.join-btn {
+    background: #cab3e2;
+    color: #fff;
+    border: none;
+    border-radius: 26px;
+    padding: 10px 36px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.13);
+    transition: background 0.2s;
+     margin-left: 550px;
+}
+.join-btn:hover {
+    background: #9888b6;
 }
