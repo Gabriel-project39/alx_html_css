@@ -68,3 +68,6 @@ Do not fold forcefully
 📝 Warranty
 
 This product comes with a 1-year limited warranty covering manufacturing defects.
+📝 Warranty
+
+This product comes with a 1-year limited warranty covering manufacturing defects.
